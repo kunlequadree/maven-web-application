@@ -17,6 +17,7 @@ pipeline{
         sh "mvn clean package"
       }
     }
+    /*
     stage('4CodeQuality'){
       steps{
         sh "echo 'Perfoming CodeQualityAnalysis' "
@@ -44,5 +45,7 @@ success{
 failure{
        emailext body: 'failed build status', recipientProviders: [buildUser(), contributor(), developers()], subject: 'Success', to: 'paypalapp@gmail.com' 
 }
+}
+*/
 }
 }  
