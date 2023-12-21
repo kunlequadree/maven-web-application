@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.129.64.117:8191/kunle/repository/project-release/</url>
+	      <url>http://18.222.173.240:8191/kunle/repository/sugardaddy-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.129.64.117:8191/kunle/repository/project-snapshot/</url>
+	      <url>http://18.222.173.240:8191/kunle/repository/sugardaddy-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
